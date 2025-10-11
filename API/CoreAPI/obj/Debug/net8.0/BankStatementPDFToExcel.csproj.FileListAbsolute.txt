@@ -69,3 +69,8 @@ C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\BankStat
 C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\BankStatementPDFToExcel.genruntimeconfig.cache
 C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\ref\BankStatementPDFToExcel.dll
 C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\BankStatementPDFToExcel.sourcelink.json
+C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\bin\Debug\net8.0\out\web.config
+C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\bin\Debug\net8.0\out\appsettings.Development.json
+C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\bin\Debug\net8.0\out\appsettings.json
+C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\bin\Debug\net8.0\out\BankStatementPDFToExcel.deps.json
+C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\bin\Debug\net8.0\out\BankStatementPDFToExcel.runtimeconfig.json

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7V0DwF3Kxj8fBKGDKzFrXpte16npQ0cGRkbv0p64L60=",
+  "Source": "BankStatementPDFToExcel",
+  "BasePath": "_content/BankStatementPDFToExcel",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -9,7 +9,8 @@ import { Observable } from 'rxjs';
 export class FileService {
 
   private uploadForm: UntypedFormGroup;
-  masterUrl:string = "http://localhost:5158/";
+  // masterUrl:string = "http://localhost:5158/";
+  masterUrl:string = "https://bankstatementpdftoexcel.onrender.com/";
   // masterUrl:string = "https://localhost:7194/";
 
   constructor(private http: HttpClient, private formBuilder: UntypedFormBuilder) { }
