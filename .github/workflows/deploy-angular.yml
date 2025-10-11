@@ -21,15 +21,15 @@ jobs:
         node-version: 20
 
     - name: Install dependencies
-      working-directory: ./BankStatementPDFToExcel/Angular
+      working-directory: Angular
       run: npm ci
 
     - name: Build Angular app
-      working-directory: ./BankStatementPDFToExcel/Angular
+      working-directory: Angular
       run: npx ng build --configuration production --base-href "/BankStatementPDFToExcel/"
 
     - name: Deploy to GitHub Pages
-      working-directory: ./BankStatementPDFToExcel/Angular
+      working-directory: Angular
       run: npx angular-cli-ghpages --dir=dist/browser --no-silent
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
