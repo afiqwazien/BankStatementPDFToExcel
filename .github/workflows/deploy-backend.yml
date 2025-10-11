@@ -1,0 +1,35 @@
+name: Deploy .NET API to Azure
+
+on:
+  push:
+    branches:
+      - main  # your deployment branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'  # match your project
+
+      - name: Restore dependencies
+        run: dotnet restore API/CoreAPI
+
+      - name: Build
+        run: dotnet build API/CoreAPI --configuration Release --no-restore
+
+      - name: Publish
+        run: dotnet publish API/CoreAPI -c Release -o ./publish_output
+
+      - name: Deploy to Azure
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'YOUR_APP_SERVICE_NAME'   # 👈 replace with your App Service name
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: ./publish_output
