@@ -28,6 +28,11 @@ jobs:
       working-directory: Angular
       run: npx ng build --configuration production --base-href "/BankStatementPDFToExcel/"
 
+    - name: Set Git user
+      run: |
+        git config --global user.email "afiqwazien.nawawi@gmail.com"
+        git config --global user.name "afiqwazien"
+
     - name: Deploy to GitHub Pages
       working-directory: Angular
       run: npx angular-cli-ghpages --dir=dist/browser --no-silent
