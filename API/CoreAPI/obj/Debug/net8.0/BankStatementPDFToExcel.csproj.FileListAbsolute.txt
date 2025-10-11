@@ -68,3 +68,4 @@ C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\refint\B
 C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\BankStatementPDFToExcel.pdb
 C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\BankStatementPDFToExcel.genruntimeconfig.cache
 C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\ref\BankStatementPDFToExcel.dll
+C:\Users\WazienTAB\BankStatementPDFToExcel\API\CoreAPI\obj\Debug\net8.0\BankStatementPDFToExcel.sourcelink.json
