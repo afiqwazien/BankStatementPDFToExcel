@@ -10,7 +10,7 @@ export class FileService {
 
   private uploadForm: UntypedFormGroup;
   // masterUrl:string = "http://localhost:5158/";
-  masterUrl:string = "https://bankstatementpdftoexcel.onrender.com/";
+  masterUrl:string = "https://bankstatementpdftoexcel-hqb0hwdzabgbh7hj.malaysiawest-01.azurewebsites.net/";
   // masterUrl:string = "https://localhost:7194/";
 
   constructor(private http: HttpClient, private formBuilder: UntypedFormBuilder) { }
